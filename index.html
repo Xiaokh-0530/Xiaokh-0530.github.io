@@ -5,6 +5,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+ body {
+      font-family: "Arial", sans-serif;
+    }
+
 * {
   box-sizing: border-box;
 }
@@ -19,7 +23,7 @@ body {
 .header {
   padding: 80px;
   text-align: center;
-  background:rgb(13, 17, 23);
+  background:url(./be68934d46cdf983cb3895713c0fdbac.jpg);
   color: white;
 }
 
@@ -89,9 +93,11 @@ body {
 
 /* Footer */
 .footer {
-  padding: 20px;
+  padding: 80px;
   text-align: center;
-  background: #ddd;
+  background: url(./b36b5c55c6511cf2ef539d187c63d2a5.jpg);
+  background-size: auto 100%
+  
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
@@ -109,14 +115,8 @@ body {
   }
 }
 img{
-  max-width: 960x;
-  max-height: 540px;
-  height:auto;
-  zoom:expression( function(e) {
-  if(e.width>e.height) {if (e.width>960) { e.height = e.height*(540 /e.width); e.width=960; }}
-  else {if (e.height>540) { e.width = e.width*(960 /e.height); e.height=540; }}
-  e.style.zoom = '1'; }(this));
-  overflow:hidden;
+  width: 75%;
+  height: 75%;
   }
   
 </style>
@@ -141,19 +141,26 @@ img{
     <div>
       <img src="be68934d46cdf983cb3895713c0fdbac.jpg" alt="minecraft" >
     </div>
+    <h2>
+      <b>
+        </b>
+        </h2>
+    <div>
+      <img src="image001.jpg" alt="minecraft" >
+    </div>
   </div>
   <div>
     <h1>小黑子专属阴乐</h1>
     <div>
       <h2>鸡你太美原版</h2>
-      <audio controls>
+      <audio width="75%" height="75%" controls>
   <source src="https://ev-sycdn.kuwo.cn/2555dc8ffdbce144050ff8bb928f65f9/63fecbaa/resource/n3/13/33/3310523721.mp3" type="audio/mpeg">
   您的浏览器不支持该音频格式。
 </audio>
     </div>
     <div>
     <h2>对接の小曲</h2>
-    <video width="960" height="540" controls>
+    <video width="75%" height="75%" controls>
   <source src="https://upos-sz-mirrorcos.bilivideo.com/upgcxcode/91/37/939563791/939563791_nb3-1-16.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&nbs=1&deadline=1677650713&gen=playurlv2&os=bcache&oi=2030333537&trid=000053b604344ba4470f9a6faf6a2bcaad24h&mid=0&platform=html5&upsig=521c0dec7dbad80fd33f11daeb6fbd70&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,mid,platform&cdnid=69805&bvc=vod&nettype=0&bw=40885&logo=80000000" type="video/mp4">
 您的浏览器不支持Video标签。
 </video>
